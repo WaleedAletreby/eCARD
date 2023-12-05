@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Linkedin Gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-7.3%" y="-5.2%" width="114.6%" height="114.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AHA_UI_Kit_Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-367.000000, -5431.000000)">
+        <g id="Linkedin-Gray" transform="translate(369.000000, 5432.000000)">
+            <g id="Base">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#6D6E71" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Path" fill="#FFFFFF" points="19.3333333 32 16 32 16 21.8947368 19.3333333 21.8947368"></polygon>
+            <path d="M17.6609995,19.3684211 C16.7118569,19.3684211 16,18.5553539 16,17.7422868 C16,16.8130672 16.7118569,16 17.6609995,16 C18.6101421,16 19.321999,16.6969147 19.321999,17.6261343 C19.4406418,18.5553539 18.6101421,19.3684211 17.6609995,19.3684211 Z" id="Path" fill="#FFFFFF"></path>
+            <path d="M30.5178571,31.8767651 L27.4672619,31.8767651 L27.4672619,27.0706033 C27.4672619,25.9614891 27.4672619,24.4826701 25.8809524,24.4826701 C24.2946429,24.4826701 24.0505952,25.7150193 24.0505952,27.0706033 L24.0505952,32 L21,32 L21,22.1412067 L23.9285714,22.1412067 L23.9285714,23.4967908 C24.2946429,22.7573813 25.2708333,21.8947368 26.8571429,21.8947368 C29.9077381,21.8947368 30.5178571,23.9897304 30.5178571,26.5776637 L30.5178571,31.8767651 Z" id="Path" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

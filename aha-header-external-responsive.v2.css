@@ -1,0 +1,477 @@
+/* American Heart Association */
+/* Date: 2015 */
+/* Description: CSS for AHA Standard Utility bar for vendors */
+/* Updated: 11/30/2015 */
+/* Updated Note: Added media query for iphone to remove paddings */
+/* Updated: 05/06/19, changed clear fix to display as block - CH
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - -*/
+
+/* Header */
+body {
+    margin: 0px;
+}
+
+a {
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#top-header {
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #FFF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#top-header *,
+footer * {
+    box-sizing: border-box;
+}
+
+#top-header {
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+    transform-origin: 50% 1% 0px;
+}
+
+nav.ahamenu .menu li.heart_logo:hover {
+    background: transparent url("//static.heart.org/ahaanywhere/images/aha_logo_red_80@2x.png") no-repeat scroll center bottom / 40px 40px;
+    -ms-interpolation-mode: bicubic;
+}
+
+nav.ahamenu .menu li:first-child:hover a.aha_logo img {
+    visibility: hidden;
+}
+
+#top-header a {
+    color: #000;
+}
+
+#top-header a:hover,
+#top-header a:focus {
+    color: #DF0000;
+}
+
+#top-header .menu>li:last-child {
+    /*border-right: 0px none;*/
+}
+
+#top-header .donate {
+    border-right: 0px none;
+}
+
+#top-header li.donate a {
+    color: #FFF;
+}
+
+.donate-button.bg-color-primary {
+    background-color: #DF0000;
+    color: #FFF;
+}
+
+#top-header li.donate a:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+#top-header .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#top-header .menu {
+    margin: 0px;
+}
+
+
+
+#top-header .menu>li {
+    border-right: 1px solid #EAEAEA;
+    font-size: 12px !important;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+#top-header .menu>li>a {
+    text-decoration: none;
+    padding: 0px 10px;
+    display: block;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.menu .heart_logo a img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Bootstrap - - - - - - - - - - - - - - - - - -*/
+/*- - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+.list-inline {
+    padding-left: 0px;
+    margin-left: -5px;
+    list-style: outside none none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-right {
+    float: right;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix::before,
+.clearfix::after,
+.dl-horizontal dd::before,
+.dl-horizontal dd::after,
+.container::before,
+.container::after,
+.container-fluid::before,
+.container-fluid::after,
+.row::before,
+.row::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after,
+.btn-toolbar::before,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::before,
+.btn-group-vertical>.btn-group::after,
+.nav::before,
+.nav::after,
+.navbar::before,
+.navbar::after,
+.navbar-header::before,
+.navbar-header::after,
+.navbar-collapse::before,
+.navbar-collapse::after,
+.pager::before,
+.pager::after,
+.panel-body::before,
+.panel-body::after,
+.modal-footer::before,
+.modal-footer::after {
+    display: block;
+    content: " ";
+}
+
+.clearfix::after,
+.dl-horizontal dd::after,
+.container::after,
+.container-fluid::after,
+.row::after,
+.form-horizontal .form-group::after,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::after,
+.nav::after,
+.navbar::after,
+.navbar-header::after,
+.navbar-collapse::after,
+.pager::after,
+.panel-body::after,
+.modal-footer::after {
+    clear: both;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+    float: left;
+}
+
+.col-xs-10 {
+    width: 83.3333%;
+}
+
+.col-xs-2 {
+    width: 16.6667%;
+}
+
+.border-0 {
+    border: 0px !important;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/* AHA Header Sublogo Vendor - - - - - - - - - - */
+/* Date: 6/1/2016 - - - - - - - - - - - - - - - */
+#ahaHeader {
+    padding: 15px 0;
+    border-bottom: 2px solid #000;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+#ahaHeader .ahaSublogo {
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: 10px;
+    border-left: 1px solid #E5E5E5;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+#ahaHeader .ahaSublogo:hover {
+    text-decoration: none;
+}
+
+#ahaHeader .sub-logo-img {
+    /*         max-height: 100px; */
+    max-width: 140px;
+    float: left;
+    -ms-interpolation-mode: bicubic;
+}
+
+#ahaHeader .sub-logo-text {}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/* AHA Utility Bar Search  - - - - - - - - - - - */
+#top-header .menu>li:last-child {
+    border-right: 0;
+}
+
+#top-header .menu>li {
+    border-right: 1px solid #EAEAEA;
+    font-size: 12px !important;
+    margin: 0px;
+    padding: 0px;
+    line-height: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.utility-search-wrapper {
+    margin-top: 6px;
+    width: 300px;
+}
+
+.utility-search-wrapper form label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 2.4;
+    line-height: 12px;
+    margin-bottom: 0;
+    color: #364347;
+}
+
+span.utility-search-btn {
+    background-color: transparent;
+}
+
+#top-header a {
+    color: #000;
+}
+
+#top-header .input-group-addon {
+    padding: 00px;
+    color: #222;
+    border-radius: 0;
+    min-width: 40px;
+    max-width: 40px;
+}
+
+#top-header .utility-search-btn a {
+    display: inline-block;
+    height: 32px;
+    width: 38px;
+    padding: 7px;
+}
+
+.menu-search #suggestion_form {
+    margin-left: 5px;
+}
+
+/*Updated with search button instead with 'a'*/
+/*6/6/2016*/
+form#suggestion_form button {
+    width: 40px;
+    height: 34px;
+    border-radius: 0px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    padding: 0;
+}
+
+form#suggestion_form button:focus {
+    /* outline: 1px dotted #DF0000; */
+    background-color: #efefef;
+}
+
+form#suggestion_form .input-group-addon {
+    border: 0px;
+}
+
+form#suggestion_form #q {
+    border-right: 0px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/* Media Query - - - - - - - - - - - - - - - - */
+
+@media (max-width: 480px) {
+
+    #top-header .container {
+        padding: 0px;
+    }
+
+}
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media(max-width:767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+
+    #ahaHeader .sub-logo-text {
+        padding: 0;
+        display: inline-block;
+        border-left: 0px solid #E5E5E5;
+        font-size: 40px;
+        line-height: 70px;
+        color: #333;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media(min-width:768px) {
+    .container {
+        width: 750px;
+    }
+
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+        float: left;
+    }
+
+    .col-sm-10 {
+        width: 83.3333%;
+    }
+
+    .col-sm-2 {
+        width: 16.6667%;
+    }
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - -*/
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - -*/
+
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - -*/

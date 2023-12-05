@@ -1,0 +1,123 @@
+.multiselect-container {
+    position: relative;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+.multiselect-container .input-group {
+    margin: 5px
+}
+.multiselect-container>li {
+    padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+    font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px;
+    height: 100%;
+    font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+    cursor: pointer
+}
+.multiselect-container>li>a {
+    padding: 0
+}
+.multiselect-container>li>a>label {
+    margin: 0;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 3px 20px 3px 40px
+}
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+    margin: 0;
+    color: #333;
+    padding: 5px 5px 5px 30px;
+    white-space: normal;
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+    margin-bottom: 5px
+}
+.filter .btn {
+    padding: 6px 3px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+    padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+    margin-left: -20px;
+    margin-right: 0
+}
+
+/* Addtion */
+
+    .multiselect-bin ul.multiselect-container {
+        width: 100%;
+        padding-left:0px;
+        box-shadow: none;
+        position:absolute;
+    }
+
+    div.table-responsive .multiselect-bin ul.multiselect-container {
+        max-height: 100px;
+        position: relative;
+        overflow-y: auto;
+    }
+
+    .multiselect-bin ul.multiselect-container li{
+        margin: 0;
+        padding: 0px;
+        border-bottom:1px solid #eaeaea;
+    }
+    .multiselect-bin {}
+    .multiselect-bin button.multiselect {
+        text-align: left;
+        border: 1px solid #c1c1c1;
+        padding: 8px 10px;
+        text-transform: none;
+        font-weight: 400;
+        font-family: inherit;
+        letter-spacing: normal;
+        font-size: calc;
+
+
+    }
+    
+    .multiselect-bin .caret {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+    .multiselect-bin button.multiselect:hover {
+
+    }
+    .multiselect-bin ul.multiselect-container li label {
+        font-weight: 400 !important;
+        margin: 0;
+    }
+    .multiselect-bin ul.multiselect-container li a {
+        
+    }
+    .multiselect-bin ul.multiselect-container li.active {
+        
+    }
+    .multiselect-bin ul.multiselect-container li.active a {
+        background-color: #f7f7f7;
+    }
+
+

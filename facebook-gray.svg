@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook Gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-7.3%" y="-5.2%" width="114.6%" height="114.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AHA_UI_Kit_Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-127.000000, -5431.000000)">
+        <g id="Facebook-Gray" transform="translate(129.000000, 5432.000000)">
+            <g id="Base">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#6D6E71" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M22.6676666,32 L22.6676666,24.6830487 L20,24.6830487 L20,21.8842149 L22.6683094,21.8842149 L22.6683094,19.7717618 C22.6683094,17.3394419 24.2560531,16 26.6055282,16 C27.7304478,16 28.7178059,16.0733028 29,16.1066222 L29,18.6855477 L27.3286908,18.6855477 C26.0507821,18.6855477 25.8116563,19.2453145 25.8116563,20.0716368 L25.8116563,21.8842149 L28.8695093,21.8842149 L28.472252,24.6830487 L25.8116563,24.6830487 L25.8116563,32 L22.6618813,32 L22.6676666,32 Z" id="Facebook-Icon" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

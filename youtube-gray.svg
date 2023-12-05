@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Youtube Gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-7.3%" y="-5.2%" width="114.6%" height="114.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AHA_UI_Kit_Page2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-547.000000, -5431.000000)">
+        <g id="Youtube-Gray" transform="translate(549.000000, 5432.000000)">
+            <g id="Base">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#6D6E71" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M22.3481833,25.6999839 L22.3474473,21.2056227 L26.6707133,23.4606332 L22.3481833,25.6999839 Z M31.8402273,20.4270333 C31.8402273,20.4270333 31.6839007,19.324756 31.2041433,18.8393494 C30.595722,18.2022619 29.913742,18.1990986 29.6009947,18.1618127 C27.3620287,18 24.003462,18 24.003462,18 L23.9965067,18 C23.9965067,18 20.6380187,18 18.398974,18.1618127 C18.0862107,18.1990986 17.404482,18.2022619 16.7958413,18.8393494 C16.3161153,19.324756 16.160008,20.4270333 16.160008,20.4270333 C16.160008,20.4270333 16,21.721472 16,23.015895 L16,24.2294195 C16,25.5238269 16.160008,26.8182499 16.160008,26.8182499 C16.160008,26.8182499 16.3161153,27.9205429 16.7958413,28.4059495 C17.404482,29.0430526 18.2039727,29.0228985 18.5600627,29.0896719 C19.840078,29.212382 24,29.250357 24,29.250357 C24,29.250357 27.3620287,29.2452989 29.6009947,29.0835019 C29.913742,29.0462003 30.595722,29.0430526 31.2041433,28.4059495 C31.6839007,27.9205429 31.8402273,26.8182499 31.8402273,26.8182499 C31.8402273,26.8182499 32,25.5238269 32,24.2294195 L32,23.015895 C32,21.721472 31.8402273,20.4270333 31.8402273,20.4270333 Z" id="Youtube_Hover-Copy" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
